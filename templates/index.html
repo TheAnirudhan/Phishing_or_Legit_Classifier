@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Phisher{% endblock %}
+
+{% block content %}
+    <h1><center>Phishing-page Detector</center> </h1>
+    <p><b>Please Paste the url here</b></p>
+    <form action="/#" method="POST">
+        <p>Paste the URL here: <input class="form-input" type="text" name="url" placeholder="Paste URL here",value="50">  <br></p>
+        
+        <input type="submit" value="Predict">
+    </form>
+{% endblock %}
